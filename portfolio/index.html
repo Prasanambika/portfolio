@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prasanambika — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Falling cherry blossom petals -->
+  <div class="petal" style="left:5%;  animation-duration:9s;  animation-delay:0s;">🌸</div>
+  <div class="petal" style="left:15%; animation-duration:12s; animation-delay:2s;">🌸</div>
+  <div class="petal" style="left:28%; animation-duration:10s; animation-delay:5s;">🌸</div>
+  <div class="petal" style="left:42%; animation-duration:14s; animation-delay:1s;">🌸</div>
+  <div class="petal" style="left:56%; animation-duration:11s; animation-delay:3.5s;">🌸</div>
+  <div class="petal" style="left:68%; animation-duration:9.5s; animation-delay:7s;">🌸</div>
+  <div class="petal" style="left:78%; animation-duration:13s; animation-delay:0.5s;">🌸</div>
+  <div class="petal" style="left:88%; animation-duration:10.5s; animation-delay:4s;">🌸</div>
+  <div class="petal" style="left:94%; animation-duration:12.5s; animation-delay:6s;">🌸</div>
+
+  <div class="cursor"      id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ══════════════════════════════
+       NAV
+  ══════════════════════════════ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">
+      Prasanambika <span class="cherry">·</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══════════════════════════════
+       HERO
+  ══════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-orb-1"></div>
+    <div class="hero-orb-2"></div>
+
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        CSE Student &nbsp;·&nbsp; Open to Opportunities
+      </div>
+
+      <h1 class="hero-name">
+        <span class="name-main">Prasanambika</span>
+        <span class="name-italic">Computer Science &amp; Engineering</span>
+      </h1>
+
+      <div class="hero-role-bar">
+        <span class="hero-role">Curious Learner &nbsp;/&nbsp; Full-Stack Developer</span>
+      </div>
+
+      <p class="hero-bio">
+        Passionate Computer Science Engineering student aiming to transform ideas
+        into efficient digital solutions through strong technical foundations,
+        continuous learning and innovative thinking.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">🌸 View My Work</a>
+        <a href="#contact"  class="btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="profile-card">
+        <div class="avatar">P</div>
+        <div>
+          <div class="pc-name">Prasanambika</div>
+          <div class="pc-role">B.E. Computer Science &amp; Engineering</div>
+          <div class="pc-loc">🌸 Coimbatore, Tamil Nadu</div>
+        </div>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-tile">
+          <div class="it-icon">🎓</div>
+          <div class="it-label">Institution</div>
+          <div class="it-value">SNS College</div>
+        </div>
+        <div class="info-tile">
+          <div class="it-icon">🌸</div>
+          <div class="it-label">Batch</div>
+          <div class="it-value">2025 – 2029</div>
+        </div>
+        <div class="info-tile">
+          <div class="it-icon">🏆</div>
+          <div class="it-label">Hackathon</div>
+          <div class="it-value">Hackwise 2026</div>
+        </div>
+        <div class="info-tile">
+          <div class="it-icon">📜</div>
+          <div class="it-label">Certifications</div>
+          <div class="it-value">2 Earned</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span class="scroll-lbl">Scroll</span>
+      <div class="scroll-stem"></div>
+    </div>
+  </section>
+
+  <div class="cherry-divider"><span>🌸 ✦ 🌸 ✦ 🌸</span></div>
+
+  <!-- ══════════════════════════════
+       SKILLS
+  ══════════════════════════════ -->
+  <section id="skills">
+    <p class="section-label reveal">What I Bring</p>
+    <h2 class="section-title reveal rd1">Skills &amp; <em>Languages</em></h2>
+
+    <div class="skills-layout">
+      <div>
+        <div class="skill-group reveal rd1">
+          <div class="skill-group-label">Technical Skills</div>
+          <div class="pills">
+            <span class="pill tech">Python</span>
+            <span class="pill tech">Java</span>
+            <span class="pill tech">HTML</span>
+            <span class="pill tech">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal rd2">
+          <div class="skill-group-label">Soft Skills</div>
+          <div class="pills">
+            <span class="pill soft">Public Speaking</span>
+            <span class="pill soft">Team Work</span>
+            <span class="pill soft">Time Management</span>
+            <span class="pill soft">Leadership</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lang-section reveal rd2">
+        <div class="skill-group-label">Languages</div>
+        <div class="lang-row">
+          <div class="lang-meta">
+            <span class="lang-name">Tamil</span>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="lang-track"><div class="lang-fill" data-w="1.0"></div></div>
+        </div>
+        <div class="lang-row">
+          <div class="lang-meta">
+            <span class="lang-name">English</span>
+            <span class="lang-level">Intermediate</span>
+          </div>
+          <div class="lang-track"><div class="lang-fill" data-w="0.65"></div></div>
+        </div>
+        <div class="lang-row">
+          <div class="lang-meta">
+            <span class="lang-name">Hindi</span>
+            <span class="lang-level">Beginner</span>
+          </div>
+          <div class="lang-track"><div class="lang-fill" data-w="0.25"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cherry-divider"><span>🌸 ✦ 🌸 ✦ 🌸</span></div>
+
+  <!-- ══════════════════════════════
+       PROJECTS
+  ══════════════════════════════ -->
+  <section id="projects">
+    <div class="projects-header">
+      <div>
+        <p class="section-label reveal">My Work</p>
+        <h2 class="section-title reveal rd1">Projects &amp; <em>Achievements</em></h2>
+      </div>
+      <a href="#contact" class="btn-secondary reveal rd2" style="font-size:0.82rem;">All Work →</a>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- EduScholar -->
+      <div class="project-card reveal rd1">
+        <div class="project-banner pb-edu">
+          <div class="banner-cherry">🌸 🌺 🌸 🌸 🌺</div>
+          <span class="proj-badge pb-tag-proj">Full-Stack Project</span>
+          <span class="proj-year">2025</span>
+          <div class="proj-overlay">
+            <a href="#" class="view-link">View Project →</a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-num">01 — Featured Project</div>
+          <div class="proj-title">EduScholar</div>
+          <p class="proj-desc">
+            Developed a full-stack scholarship portal with integrated front-end and back-end
+            to make scholarship applications easier — a student-friendly platform simplifying
+            access to educational funding opportunities.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">HTML / CSS</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Full-Stack</span>
+            <span class="tech-tag">Portal</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hackwise -->
+      <div class="project-card reveal rd2">
+        <div class="project-banner pb-hack">
+          <div class="banner-cherry">🌸 💮 🌸 💮 🌸</div>
+          <span class="proj-badge pb-tag-hack">Hackathon</span>
+          <span class="proj-year">2026</span>
+          <div class="proj-overlay">
+            <a href="#" class="view-link">View Details →</a>
+          </div>
+        </div>
+        <div class="proj-body">
+          <div class="proj-num">02 — Hackathon</div>
+          <div class="proj-title">Hackwise 2026</div>
+          <p class="proj-desc">
+            Competed in Hackwise Hackathon 2026, pushing boundaries of innovation
+            and collaborative problem-solving under time constraints.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Innovation</span>
+            <span class="tech-tag">Team Work</span>
+            <span class="tech-tag">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="cherry-divider"><span>🌸 ✦ 🌸 ✦ 🌸</span></div>
+
+  <!-- ══════════════════════════════
+       CERTIFICATIONS
+  ══════════════════════════════ -->
+  <section id="certifications">
+    <p class="section-label reveal">Credentials</p>
+    <h2 class="section-title reveal rd1">Certifications</h2>
+
+    <div class="certs-grid">
+      <div class="cert-card reveal rd1">
+        <span class="cert-icon">🐍</span>
+        <div class="cert-issuer">Scaler</div>
+        <div class="cert-name">Python for Beginners</div>
+        <div class="cert-year">2025</div>
+      </div>
+      <div class="cert-card reveal rd2">
+        <span class="cert-icon">💡</span>
+        <div class="cert-issuer">IBM</div>
+        <div class="cert-name">Enterprise Design Thinking</div>
+        <div class="cert-year">2025</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cherry-divider"><span>🌸 ✦ 🌸 ✦ 🌸</span></div>
+
+  <!-- ══════════════════════════════
+       EDUCATION
+  ══════════════════════════════ -->
+  <section id="education">
+    <p class="section-label reveal">Academic Background</p>
+    <h2 class="section-title reveal rd1">Education</h2>
+
+    <div class="edu-card reveal rd2">
+      <div class="edu-icon">🎓</div>
+      <div>
+        <div class="edu-degree">B.E. Computer Science &amp; Engineering</div>
+        <div class="edu-school">SNS College of Engineering</div>
+        <div class="edu-loc">Coimbatore, Tamil Nadu, India</div>
+      </div>
+      <div class="edu-years">2025 – 2029</div>
+    </div>
+  </section>
+
+  <div class="cherry-divider"><span>🌸 ✦ 🌸 ✦ 🌸</span></div>
+
+  <!-- ══════════════════════════════
+       CONTACT
+  ══════════════════════════════ -->
+  <section id="contact">
+    <div class="contact-orb-1"></div>
+    <div class="contact-orb-2"></div>
+
+    <div class="contact-grid">
+      <div>
+        <p class="section-label reveal">Let's Connect</p>
+        <h2 class="contact-heading reveal rd1">
+          Let's build<br><span>something great.</span>
+        </h2>
+        <p class="contact-sub reveal rd2">
+          I'm always eager to collaborate, learn, and take on new challenges.
+          Whether it's a project idea, internship opportunity, or just a
+          conversation about tech — feel free to reach out.
+        </p>
+      </div>
+
+      <div class="contact-links">
+        <a href="mailto:prasanambikas@gmail.com" class="contact-item reveal rd1">
+          <div class="ci-icon">✉</div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-value">prasanambikas@gmail.com</div>
+          </div>
+          <span class="ci-arrow">→</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/prasanambika-s-949495388/"
+           target="_blank" rel="noopener" class="contact-item reveal rd2">
+          <div class="ci-icon">in</div>
+          <div>
+            <div class="ci-label">LinkedIn</div>
+            <div class="ci-value">Prasanambika</div>
+          </div>
+          <span class="ci-arrow">→</span>
+        </a>
+
+        <a href="https://github.com/Prasanambika"
+           target="_blank" rel="noopener" class="contact-item reveal rd3">
+          <div class="ci-icon">GH</div>
+          <div>
+            <div class="ci-label">GitHub</div>
+            <div class="ci-value">github.com/Prasanambika</div>
+          </div>
+          <span class="ci-arrow">→</span>
+        </a>
+
+        <div class="contact-item reveal rd4" style="cursor:default;">
+          <div class="ci-icon">🌸</div>
+          <div>
+            <div class="ci-label">Location</div>
+            <div class="ci-value">Coimbatore, Tamil Nadu, India</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       FOOTER
+  ══════════════════════════════ -->
+  <footer>
+    <div class="footer-brand">
+      Prasanambika <span class="cherry">·</span> Portfolio
+    </div>
+    <div class="footer-copy">© 2026 · Crafted with care in Coimbatore 🌸</div>
+    <div class="footer-socials">
+      <a href="https://github.com/Prasanambika"     target="_blank" rel="noopener" class="fsoc">GH</a>
+      <a href="https://www.linkedin.com/in/prasanambika-s-949495388/" target="_blank" rel="noopener" class="fsoc">in</a>
+      <a href="mailto:prasanambikas@gmail.com"       class="fsoc">@</a>
+    </div>
+  </footer>
+
+  <script>
+    /* Custom cursor */
+    const cur  = document.getElementById('cursor');
+    const ring = document.getElementById('cursorRing');
+    let mx=0, my=0, rx=0, ry=0;
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      cur.style.transform = `translate(${mx-4}px,${my-4}px)`;
+    });
+    (function follow() {
+      rx += (mx - rx - 17) * 0.12;
+      ry += (my - ry - 17) * 0.12;
+      ring.style.transform = `translate(${rx}px,${ry}px)`;
+      requestAnimationFrame(follow);
+    })();
+    document.querySelectorAll('a,button,.pill,.cert-card,.project-card,.info-tile,.edu-card,.contact-item').forEach(el => {
+      el.addEventListener('mouseenter', () => ring.classList.add('hover'));
+      el.addEventListener('mouseleave', () => ring.classList.remove('hover'));
+    });
+
+    /* Sticky nav */
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    /* Scroll reveal */
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+    /* Language bar animation */
+    const langObs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.lang-fill').forEach(bar => {
+            bar.style.transform = `scaleX(${bar.dataset.w})`;
+            bar.classList.add('show');
+          });
+        }
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.lang-section').forEach(el => langObs.observe(el));
+  </script>
+
+</body>
+</html>
